@@ -1,0 +1,41 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.contact-info {
+  padding: 10px;
+}
+
+.contact-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.copyright {
+  text-align: right;
+}
+
+.copyright p {
+  font-size: 0.9rem;
+}

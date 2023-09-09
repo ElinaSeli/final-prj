@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background: linear-gradient(135deg, #e0efff, #c7cbcd);
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@import url(./components/Footer.scss);
+@import url(./Login.scss);
+@import url(./components/ProductBlock.scss);
+@import url(./components/ProductList.scss);
+@import url(./components/Home.scss);
+@import url(./components/navbar.scss);
+@import url(./components/ProductPage.scss);
+@import url(./components/Cart.scss);
+@import url(./components/Thanks.scss);
